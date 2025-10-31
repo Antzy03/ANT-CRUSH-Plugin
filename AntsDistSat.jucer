@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="FZ4Cti" name="AntsDistSat" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="aUZZs8" name="AntsDistSat">
+    <GROUP id="{CD7DEF21-7CEB-386E-4605-57F6E0AA85EF}" name="Source">
+      <GROUP id="{4EF340D6-EE59-02AD-E459-1E76919CFDF2}" name="src">
+        <GROUP id="{72FEAB81-F343-FD7D-9609-ECEBAB7B9D4C}" name="components">
+          <FILE id="HshRvg" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+                file="Source/src/components/CustomLookAndFeel.cpp"/>
+          <FILE id="kKILUY" name="CustomLookAndFeel.h" compile="0" resource="0"
+                file="Source/src/components/CustomLookAndFeel.h"/>
+          <FILE id="Hae3TO" name="KnobComponent.cpp" compile="1" resource="0"
+                file="Source/src/components/KnobComponent.cpp"/>
+          <FILE id="mc3bNy" name="KnobComponent.h" compile="0" resource="0" file="Source/src/components/KnobComponent.h"/>
+          <FILE id="BmMx8Q" name="MainComponent.cpp" compile="1" resource="0"
+                file="Source/src/components/MainComponent.cpp"/>
+          <FILE id="bhdpo8" name="MainComponent.h" compile="0" resource="0" file="Source/src/components/MainComponent.h"/>
+          <FILE id="Zo21Sc" name="SectionComponent.cpp" compile="1" resource="0"
+                file="Source/src/components/SectionComponent.cpp"/>
+          <FILE id="P8YkKC" name="SectionComponent.h" compile="0" resource="0"
+                file="Source/src/components/SectionComponent.h"/>
+          <FILE id="bEqqWL" name="TextureManager.cpp" compile="1" resource="0"
+                file="Source/src/components/TextureManager.cpp"/>
+          <FILE id="MapmUl" name="TextureManager.h" compile="0" resource="0"
+                file="Source/src/components/TextureManager.h"/>
+          <FILE id="ZEmiiB" name="VisualiserComponent.cpp" compile="1" resource="0"
+                file="Source/src/components/VisualiserComponent.cpp"/>
+          <FILE id="eLoRXh" name="VisualiserComponent.h" compile="0" resource="0"
+                file="Source/src/components/VisualiserComponent.h"/>
+        </GROUP>
+        <GROUP id="{A1D3E675-1FE5-8440-CE44-FF0FF5D12A15}" name="styles">
+          <FILE id="rzb7hf" name="ColorScheme.h" compile="0" resource="0" file="Source/src/styles/ColorScheme.h"/>
+        </GROUP>
+      </GROUP>
+      <FILE id="h7o9Rh" name="AntDistSat.xml" compile="0" resource="1" file="Source/AntDistSat.xml"/>
+      <FILE id="DROjsC" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="rcZWc6" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="XlnjIG" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="ghhwlU" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="AntsDistSat"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="AntsDistSat"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

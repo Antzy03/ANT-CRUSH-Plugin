@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<magic>
+  <Styles>
+    <Style name="default">
+      <Nodes/>
+      <Classes>
+        <plot-view border="2" background-color="black"/>
+        <slider border="0" text="white"/>
+        <slider-track background="black"/>
+        <slider-thumb background="green"/>
+      </Classes>
+      <Types>
+        <Slider>
+          <backgroundColour value="FF595C5A" />
+          <textColourId value="FFFFFFFF" />
+        </Slider>
+        <ToggleButton>
+          <backgroundColour value="FF595C5A" />
+          <textColourId value="FFFFFFFF" />
+        </ToggleButton>
+      </Types>
+      <Palettes>
+        <default/>
+      </Palettes>
+    </Style>
+  </Styles>
+  <View flex-direction="column">
+    <View flex-grow="0.5">
+      <Spectrogram source="spectrogram" plot-color="white" background-color="black"/>
+    </View>
+    <View flex-direction="row" flex-wrap="wrap">
+      <Slider caption="Drive" parameter="drive"/>
+      <Slider caption="Mix" parameter="mix"/>
+      <Slider caption="Saturation" parameter="saturation"/>
+      <Slider caption="Mid/Side" parameter="midside"/>
+      <Slider caption="Threshold" parameter="threshold"/>
+      <Slider caption="Attack" parameter="attack"/>
+      <Slider caption="Release" parameter="release"/>
+      <Slider caption="Bit Crush" parameter="bitcrush"/>
+      <Slider caption="Bit Modulation" parameter="bitmodulation"/>
+      <Slider caption="Downsample" parameter="downsample"/>
+      <Slider caption="Jitter" parameter="jitter"/>
+      <Slider caption="Spectral Shift" parameter="spectralshift"/>
+    </View>
+  </View>
+</magic>
