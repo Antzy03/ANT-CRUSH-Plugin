@@ -8,6 +8,9 @@ Builds/*/
 # Output directory
 Output/
 
+# External modules (submodules should be handled separately)
+modules/
+
 # Visual Studio Code
 .vscode/
 

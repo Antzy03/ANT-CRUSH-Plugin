@@ -54,7 +54,7 @@ This project is proprietary software. All rights reserved.
 
 ## Author
 
-Created by [Your Name]
+Created by Anant Chaudhary
 
 ## Support
 
