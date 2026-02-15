@@ -1,0 +1,28 @@
+ANT//CRUSH PLUGIN LICENSE
+
+Copyright (c) 2024 Anant Chaudhary. All rights reserved.
+
+This software is proprietary and confidential. Unauthorized copying, distribution,
+modification, public display, or public performance of this software is strictly
+prohibited.
+
+PERMITTED USE:
+- Personal use on devices you own
+- Commercial use in music production
+- Installation on multiple devices for the same user
+
+PROHIBITED USE:
+- Redistribution or resale
+- Reverse engineering or decompilation
+- Removal of copyright notices
+- Transfer of license to third parties without permission
+
+DISCLAIMER:
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. THE AUTHOR DISCLAIMS ALL WARRANTIES INCLUDING BUT NOT LIMITED TO THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+SUPPORT:
+For support and inquiries, please visit: https://github.com/anomalyco/AntsDistSat
+
+By installing this software, you agree to these terms.

@@ -16,9 +16,9 @@ if exist "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" (
     exit /b 1
 )
 
-REM Check if Debug build exists
-if not exist "Builds\VisualStudio2022\x64\Debug\VST3\AntsDistSat.vst3" (
-    echo Error: Debug build not found!
+REM Check if Release build exists
+if not exist "Builds\VisualStudio2022\x64\Release\VST3\AntsDistSat.vst3" (
+    echo Error: Release build not found!
     echo Please run build_release.bat first to build the plugin.
     echo.
     pause

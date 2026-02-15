@@ -10,11 +10,11 @@ To create a Windows installer for AntsDistSat:
    - Download from: https://jrsoftware.org/isdl.php
    - Install Inno Setup (version 6.0 or later recommended)
 
-2. **Build the Debug version** of the plugin:
+2. **Build the Release version** of the plugin:
    - Open `Builds/VisualStudio2022/AntsDistSat.sln` in Visual Studio
-   - Select "Debug" and "x64" configurations
+   - Select "Release" and "x64" configurations
    - Build the solution (Build → Build Solution)
-   - The VST3 plugin will be created at: `Builds/VisualStudio2022/x64/Debug/VST3/AntsDistSat.vst3`
+   - The VST3 plugin will be created at: `Builds/VisualStudio2022/x64/Release/VST3/AntsDistSat.vst3`
    - Or run `build_release.bat` to build automatically
 
 ### Creating the Installer

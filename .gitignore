@@ -1,47 +1,34 @@
-# Build directories
+# Build output directories
 Builds/VisualStudio2022/x64/
 Builds/VisualStudio2022/Debug/
 Builds/VisualStudio2022/Release/
-Builds/VisualStudio2022/*.vcxproj.user
-Builds/*/
 
-# Output directory
+# VS user/cache files
+.vs/
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+
+# Output directory (installer output)
 Output/
 
-# External modules (submodules should be handled separately)
+# External modules (cloned separately)
 modules/
 
 # Visual Studio Code
 .vscode/
 
-# Windows
+# OS files
 Thumbs.db
 Desktop.ini
-
-# macOS
 .DS_Store
-
-# Audio plugin formats
-*.vst3
-*.vst
-*.au
-*.aax
-*.component
 
 # Temporary files
 *.tmp
 *.temp
 *~
-
-# Log files
 *.log
-
-# IDE files
-*.suo
-*.sdf
-*.opensdf
-*.vcxproj.user
-*.filters
 
 # CMake
 CMakeCache.txt
@@ -52,17 +39,8 @@ cmake_install.cmake
 *.xcworkspace
 *.xcuserdata
 
-# Binary files
-*.exe
-*.dll
-*.dylib
-*.so
+# Binary artifacts (not source)
 *.pdb
 *.ilk
 *.obj
 *.o
-
-# Package files
-*.zip
-*.tar.gz
-*.rar
