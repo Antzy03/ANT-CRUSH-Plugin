@@ -1,5 +1,5 @@
 @echo off
-echo Creating Windows Installer for AntsDistSat...
+echo Creating Windows Installer for ant//crush...
 echo.
 
 REM Check if Inno Setup is installed
@@ -32,8 +32,7 @@ if %ERRORLEVEL% EQU 0 (
     echo.
     echo Installer created successfully!
     echo.
-    echo The installer should be in:
-    echo C:\Users\%USERNAME%\Documents\Inno Setup Compiler\Output\
+    echo The installer is in: Output\
     echo.
 ) else (
     echo.
@@ -42,4 +41,3 @@ if %ERRORLEVEL% EQU 0 (
 )
 
 pause
-

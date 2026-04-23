@@ -1,5 +1,5 @@
 @echo off
-echo Building AntsDistSat Release version...
+echo Building ant//crush Release version...
 echo.
 
 REM Change to Visual Studio solution directory
@@ -12,7 +12,7 @@ echo Building Release x64 configuration...
 if %ERRORLEVEL% EQU 0 (
     echo.
     echo Build successful!
-    echo VST3 plugin location: Builds\VisualStudio2022\x64\Release\VST3\AntsDistSat.vst3
+    echo VST3 plugin location: Builds\VisualStudio2022\x64\Release\VST3\AntCrush.vst3
     echo.
     echo You can now create the installer using Inno Setup with Setup.iss
 ) else (
@@ -22,4 +22,3 @@ if %ERRORLEVEL% EQU 0 (
 )
 
 pause
-

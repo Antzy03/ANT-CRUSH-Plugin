@@ -23,6 +23,6 @@ IMPLIED. THE AUTHOR DISCLAIMS ALL WARRANTIES INCLUDING BUT NOT LIMITED TO THE
 IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
 SUPPORT:
-For support and inquiries, please visit: https://github.com/anomalyco/AntsDistSat
+For support and inquiries, please visit: https://tinyantproductions.com
 
 By installing this software, you agree to these terms.

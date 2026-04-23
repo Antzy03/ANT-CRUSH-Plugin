@@ -15,9 +15,9 @@ BEGIN
   BEGIN
     BLOCK "040904E4"
     BEGIN
-      VALUE "FileDescription",  "AntsDistSat\0"
+      VALUE "FileDescription",  "AntCrush\0"
       VALUE "FileVersion",  "1.0.0\0"
-      VALUE "ProductName",  "AntsDistSat\0"
+      VALUE "ProductName",  "AntCrush\0"
       VALUE "ProductVersion",  "1.0.0\0"
     END
   END

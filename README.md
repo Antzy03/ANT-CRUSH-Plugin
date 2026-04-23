@@ -45,7 +45,7 @@ A sophisticated audio distortion and saturation plugin built with JUCE framework
 ## Installation
 
 Run the installer generated after building:
-- Windows: `AntsDistSat_Setup_v1.0.0.exe`
+- Windows: `AntCrush_Setup_v1.0.0.exe`
 - macOS: Install component and AU files manually
 
 ## License
@@ -58,4 +58,4 @@ Created by Anant Chaudhary
 
 ## Support
 
-For support and bug reports, please create an issue in this repository.
+For support and bug reports, please visit: https://tinyantproductions.com
